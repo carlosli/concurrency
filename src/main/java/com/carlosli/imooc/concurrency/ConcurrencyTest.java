@@ -1,6 +1,5 @@
 package com.carlosli.imooc.concurrency;
 
-import com.carlosli.imooc.concurrency.controller.TestController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +10,7 @@ import java.util.concurrent.Semaphore;
 
 public class ConcurrencyTest {
 
-    protected static Logger logger = LoggerFactory.getLogger(TestController.class);
+    protected static Logger logger = LoggerFactory.getLogger(ConcurrencyTest.class);
 
 
     public static int clientTotal = 5000;
